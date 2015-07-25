@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- category items for drop down menu -->
+    <string-array
+        name="drop_down_menu_test_category">
+        <item>Java</item>
+        <item>C and C++</item>
+        <item>Linux</item>
+        <item>Data Structures</item>
+        <item>OOP</item>
+    </string-array>
+
+    <!-- level items for drop down menu -->
+    <string-array
+        name="drop_down_menu_level">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+        <item>Professional</item>
+    </string-array>
+
+    <!-- language items for drop down menu -->
+    <string-array
+        name="drop_down_menu_language">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>Russian</item>
+        <item>Japanese</item>
+        <item>Chinese</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.csprep.csprep.MainMenuActivity">
+
+    <!-- hidden settings menu in tools bar -->
+    <item android:id="@+id/action_settings"
+          android:title="@string/action_settings"
+          android:orderInCategory="100"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/action_disclaimer"
+          android:title="Disclaimer"
+          android:orderInCategory="100"
+          app:showAsAction="never" />
+
+    <item android:id="@+id/action_close"
+          android:title="Close"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+</menu>

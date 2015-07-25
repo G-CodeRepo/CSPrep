@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="com.csprep.csprep.DisclaimerActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="DISCLAIMER"
+        android:id="@+id/help_text"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="CS Prep will only be used for the ICS 466 course at University of Hawaii at Manoa for testing purposes and is not intended for commercial use. By using CS Prep the user acknowledges the terms and any violation of these terms will result in legal action. CS Prep is the property of Gerald Abut and Katrina Schenk and can be reached at abut@hawaii.edu and schenkk@hawaii.edu respectively."
+        android:gravity="center"
+        android:id="@+id/textView3"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/help_text"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
